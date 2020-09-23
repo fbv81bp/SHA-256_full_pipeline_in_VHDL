@@ -9,10 +9,14 @@
 - only 2 input adders are used in the entire design, to enable high speed FPGA implementation
 - most of the shift registers have been replaced with distributed RAMs based circular buffers to decrease unnecessary bit flipping and with that power consumption
 
-# Key modules:
+# Key modules
 - sha256_full_top.vhd is the design's top module
 - sha256_full_sim_test.vhd is the simulation's top
 - sha256_hw_test.vhd has been a hardware test for power measurement
+
+# Further development
+- pipeline length to be a parameterizable multiple of 5
+- optional swicthing between shift registers and circular buffer to better match with FPGA resources (some LUTs can only be applied as shift registers)
 
 # License
 This is code is meant to be a know-how sample and is not to be used in its current form for free.
