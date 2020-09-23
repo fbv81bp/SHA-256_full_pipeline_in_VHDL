@@ -12,4 +12,4 @@
 - sha256_hw_test.vhd has been a hardware test for power measurement
 
 # License
-This is code is meant to be an know-how sample and is not to be used in its current form for free.
+This is code is meant to be a know-how sample and is not to be used in its current form for free.
