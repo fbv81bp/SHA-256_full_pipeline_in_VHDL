@@ -4,7 +4,10 @@
 - the full pipeline consists of 64 pipeline elements
 - calculates 320 separate input stream's hashes parallelly
 - compression pipeline input can be initialized with arbitrary intermediate hash state
-- most of the shift registers have been replaced with circular buffers to decrease unnecessary bit flipping and with that power consumption
+
+# Applied optimizations
+- only 2 input adders are used in the entire design, to enable high speed FPGA implementation
+- most of the shift registers have been replaced with distributed RAMs based circular buffers to decrease unnecessary bit flipping and with that power consumption
 
 # Key modules:
 - sha256_full_top.vhd is the design's top module
