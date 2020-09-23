@@ -1,5 +1,4 @@
 # SHA2 256bit fully pipelined 320 layer architecture
-
 - simulatable and synthesizable portable VHDL code
 - pipeline elements are separately optimized and contain 5 level pipeline each
 - the full pipeline consists of 64 pipeline elements
@@ -11,3 +10,6 @@
 - sha256_full_top.vhd is the design's top module
 - sha256_full_sim_test.vhd is the simulation's top
 - sha256_hw_test.vhd has been a hardware test for power measurement
+
+# License
+This is code is meant to be an know-how sample and is not to be used in its current form for free.
