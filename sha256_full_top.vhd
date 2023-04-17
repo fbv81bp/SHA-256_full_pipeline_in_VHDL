@@ -1,4 +1,4 @@
---(c) Fekete Balázs Valér fbv81bp@outlook.hu fbv81bp@gmail.com All rights reserved!
+--Copyright (C) Balazs Valer FEKETE, fbv81bp@outlook.hu fbv81bp@gmail.com All rights reserved!
 
 LIBRARY IEEE;
 use IEEE.std_logic_1164.all;
